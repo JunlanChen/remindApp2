@@ -10,5 +10,12 @@
     <string name="submit">Submit</string>
     <string name="wrongPassUser">Wrong Password OR Username</string>
     <string name="title_activity_login_actvity">loginActvity</string>
-
+    <string name="normalSchedule">Normal Schedule</string>
+    <string name="firstPeriodOff">First Period OFF</string>
+    <string name="secondPeriodOff">Second Period OFF</string>
+    <string name="thirdPeriodOff">Third Period OFF</string>
+    <string name="fourthPeriodOff">Fourth Period OFF</string>
+    <string name="fifthPeriodOff">Fifth Period OFF</string>
+    <string name="lunchA">Lunch A</string>
+    <string name="lunchB">Lunch B</string>
 </resources>
