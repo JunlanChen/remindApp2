@@ -18,4 +18,6 @@
     <string name="fifthPeriodOff">Fifth Period OFF</string>
     <string name="lunchA">Lunch A</string>
     <string name="lunchB">Lunch B</string>
+    <string name="studentLogin">Student Login</string>
+    <string name="adminLogin">Administrator Login</string>
 </resources>

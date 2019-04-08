@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 
-public class loginActvity extends AppCompatActivity {
+public class studentlLoginActvity extends AppCompatActivity {
     User user;
     EditText usernameEdit;
     EditText passwordEdit;
@@ -22,7 +22,7 @@ public class loginActvity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_actvity);
+        setContentView(R.layout.activity_student_login_actvity);
         usernameEdit = (EditText) findViewById(R.id.usernameEdit);
         passwordEdit = (EditText) findViewById(R.id.passwordEdit);
         loginSubmit = (Button) findViewById(R.id.loginSubmit);
@@ -38,13 +38,13 @@ public class loginActvity extends AppCompatActivity {
             public void onClick(View v) {
                 if (usernameEdit.equals("stu1") && passwordEdit.equals("12345") )
                 {
-                    Intent Intent1 = new Intent(loginActvity.this, MainActivity.class);
+                    Intent Intent1 = new Intent(studentlLoginActvity.this, MainActivity.class);
                     startActivity(Intent1);
                 }
                 else
                 {
-                    Toast.makeText(loginActvity.this,toastMessageID,Toast.LENGTH_SHORT).show();
-                    Intent Intent1 = new Intent(loginActvity.this, MainActivity.class);
+                    Toast.makeText(studentlLoginActvity.this,toastMessageID,Toast.LENGTH_SHORT).show();
+                    Intent Intent1 = new Intent(studentlLoginActvity.this, MainActivity.class);
                     startActivity(Intent1);
                 }
 

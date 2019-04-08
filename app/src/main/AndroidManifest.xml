@@ -11,9 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".scheduleActivity"></activity>
+        <activity android:name=".adminLoginActivity"></activity>
+        <activity android:name=".studentlLoginActvity" />
+        <activity android:name=".scheduleActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".loginActvity">
+        <activity android:name=".Start">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
