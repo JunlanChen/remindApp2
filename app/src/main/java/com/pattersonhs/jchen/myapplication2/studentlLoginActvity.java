@@ -36,7 +36,7 @@ public class studentlLoginActvity extends AppCompatActivity {
         loginSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (usernameEdit.equals("stu1") && passwordEdit.equals("12345") )
+                if (usernameEdit.equals("stu1")&& passwordEdit.equals("12345") )
                 {
                     Intent Intent1 = new Intent(studentlLoginActvity.this, MainActivity.class);
                     startActivity(Intent1);

@@ -20,4 +20,7 @@
     <string name="lunchB">Lunch B</string>
     <string name="studentLogin">Student Login</string>
     <string name="adminLogin">Administrator Login</string>
+    <string name="clipperWednesday">Clipper Wednesday</string>
+    <string name="twoHourDelay">Two Hour Delay</string>
+    <string name="halfDay">Half Day</string>
 </resources>

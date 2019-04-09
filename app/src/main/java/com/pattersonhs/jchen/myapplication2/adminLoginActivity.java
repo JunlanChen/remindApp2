@@ -38,13 +38,13 @@ public class adminLoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (usernameEdit.equals("admin1") && passwordEdit.equals("6789") )
                 {
-                    Intent Intent1 = new Intent(adminLoginActivity.this, MainActivity.class);
+                    Intent Intent1 = new Intent(adminLoginActivity.this, specialDaySchedule.class);
                     startActivity(Intent1);
                 }
                 else
                 {
                     Toast.makeText(adminLoginActivity.this,toastMessageID,Toast.LENGTH_SHORT).show();
-                    Intent Intent1 = new Intent(adminLoginActivity.this, MainActivity.class);
+                    Intent Intent1 = new Intent(adminLoginActivity.this, specialDaySchedule.class);
                     startActivity(Intent1);
                 }
 
