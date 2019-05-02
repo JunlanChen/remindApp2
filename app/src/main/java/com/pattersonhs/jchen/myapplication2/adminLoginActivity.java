@@ -11,32 +11,32 @@ import android.widget.Toast;
 public class adminLoginActivity extends AppCompatActivity {
 
     User user;
-    EditText usernameEdit;
+    //EditText usernameEdit;
     EditText passwordEdit;
     Button loginSubmit;
     int toastMessageID;
     String typedPassword;
-    String typedUsername;
+    //String typedUsername;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_student_login_actvity);
-        usernameEdit = (EditText) findViewById(R.id.usernameEdit);
+       //usernameEdit = (EditText) findViewById(R.id.usernameEdit);
         passwordEdit = (EditText) findViewById(R.id.passwordEdit);
         loginSubmit = (Button) findViewById(R.id.loginSubmit);
 
         //user.setPassword("12345");
         // user.setUsername("stu1");
         typedPassword = passwordEdit.getText().toString().trim();
-        typedUsername = usernameEdit.getText().toString().trim();
+        //typedUsername = usernameEdit.getText().toString().trim();
         toastMessageID = R.string.wrongPassUser;
 
         loginSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (usernameEdit.equals("admin1") && passwordEdit.equals("6789") )
+                if (passwordEdit.getText().toString().trim().equals("admin123") )
                 {
                     Intent Intent1 = new Intent(adminLoginActivity.this, specialDaySchedule.class);
                     startActivity(Intent1);
@@ -44,8 +44,8 @@ public class adminLoginActivity extends AppCompatActivity {
                 else
                 {
                     Toast.makeText(adminLoginActivity.this,toastMessageID,Toast.LENGTH_SHORT).show();
-                    Intent Intent1 = new Intent(adminLoginActivity.this, specialDaySchedule.class);
-                    startActivity(Intent1);
+                    //Intent Intent1 = new Intent(adminLoginActivity.this, specialDaySchedule.class);
+                    //startActivity(Intent1);
                 }
 
             }

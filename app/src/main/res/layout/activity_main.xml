@@ -27,7 +27,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/textSubmitButton"
-        android:id="@+id/textSubmitButton"/>
+        android:text="@string/cancelAlarm"
+        android:id="@+id/cancelAlarm"/>
 
 </LinearLayout>

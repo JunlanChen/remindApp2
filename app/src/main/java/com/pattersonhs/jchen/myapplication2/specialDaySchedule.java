@@ -16,8 +16,8 @@ public class specialDaySchedule extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_special_day_schedule);
 
-        halfDay = (Button) findViewById(R.id.halfDay);
-        clipperWednesday = (Button) findViewById(R.id.clipperWednesday);
+               halfDay = (Button) findViewById(R.id.halfDay);
+        clipperWednesday = (Button) findViewById(R.id.clipperWednesdayALunch);
         twoHourDelay = (Button) findViewById(R.id.twoHourDelay);
 
         clipperWednesday.setOnClickListener(new View.OnClickListener() {

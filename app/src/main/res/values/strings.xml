@@ -8,7 +8,7 @@
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="submit">Submit</string>
-    <string name="wrongPassUser">Wrong Password OR Username</string>
+    <string name="wrongPassUser">Wrong Password</string>
     <string name="title_activity_login_actvity">loginActvity</string>
     <string name="normalSchedule">Normal Schedule</string>
     <string name="firstPeriodOff">First Period OFF</string>
@@ -18,9 +18,11 @@
     <string name="fifthPeriodOff">Fifth Period OFF</string>
     <string name="lunchA">Lunch A</string>
     <string name="lunchB">Lunch B</string>
-    <string name="studentLogin">Student Login</string>
+    <string name="students">Students</string>
     <string name="adminLogin">Administrator Login</string>
-    <string name="clipperWednesday">Clipper Wednesday</string>
+    <string name="clipperWednesdayALunch">Clipper Wednesday A Lunch</string>
+    <string name="clipperWednesdayBLunch">Clipper Wednesday B Lunch</string>
     <string name="twoHourDelay">Two Hour Delay</string>
     <string name="halfDay">Half Day</string>
+    <string name="cancelAlarm">Cancel Alarm</string>
 </resources>

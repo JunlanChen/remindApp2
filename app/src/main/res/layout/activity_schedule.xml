@@ -17,4 +17,25 @@
         android:text="@string/lunchB"
         android:id="@+id/lunchBSchedule"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clipperWednesdayALunch"
+        android:id="@+id/clipperWednesdayALunch"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clipperWednesdayBLunch"
+        android:id="@+id/clipperWednesdayBLunch"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/twoHourDelay"
+        android:id="@+id/twoHourDelay"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/halfDay"
+        android:id="@+id/halfDay"/>
+
 </LinearLayout>

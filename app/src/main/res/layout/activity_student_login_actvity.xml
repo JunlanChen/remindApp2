@@ -12,7 +12,7 @@
         android:text="@string/login"
         android:textSize="40dp"/>
 
-    <TextView
+   <!-- <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/username"/>
@@ -20,7 +20,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/usernameEdit"/>
+        android:id="@+id/usernameEdit"/> -->
 
     <TextView
         android:layout_width="wrap_content"
